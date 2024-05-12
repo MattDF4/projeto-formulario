@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULÁRIO</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo/layout.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Formulário de DEV'S</h1>
+            <p>Preencha as informações abaixo</p>
+        </header>
+
+    
+
+
+        <form action="dasfgeqf.php" method="post" autocomplete="on">
+            <article id="inicial">
+                
+                <div>
+                    <label for="id_nome">Nome</label>
+                    <input type="text" name="nome" id="id_nome" required autocomplete="name">
+                </div>
+
+                <div>
+                    <label for="id_sobrenome">Sobrenome</label>
+                    <input type="text" name="sobrenome" id="id_sobrenome" required autocomplete="family-name">
+                </div>
+               
+                <div>
+                    <label for="id_email">E-mail</label>
+                    <input type="email" name="email" id="id_email" required autocomplete="email">
+                </div>
+                
+            </article>
+
+            <article class="escolhas">
+                
+                <div>
+                    <p class="subtitulos"><strong>De qual lado da aplicação você desenvolve?</strong></p>
+                    <label for="id_backend">Back-end</label>
+                    <input type="radio" name="aplicacao" id="id_backend" required>
+                    <label for="id_frontend">Front-end</label>
+                    <input type="radio" name="aplicacao" id="id_frontend">
+                    
+                    <label for="id_fullstack">Full-Stack</label>
+                    <input type="radio" name="aplicacao" id="id_fullstack">
+                </div>
+               
+
+            </article>
+
+            <article>
+
+                <div>
+
+                    <p class="subtitulos"><strong>Senioridade</strong></p>
+                    <select name="nivel" id="id_nivel">
+                        <option value="Escolha">---- Escolha ----</option>
+                        <optgroup>
+                            <option value="Dev Junior">Junior</option>
+                            <option value="Dev Pleno">Pleno</option>
+                            <option value="Dev Senior">Senior</option>
+                        </optgroup>
+                    </select>
+
+                </div>
+
+            </article>
+
+            <article class="escolhas">
+                <div>
+                    <p class="subtitulos"><strong>Selecione as tecnologias que utiliza</strong></p>
+                    <label for="id_HTML">HTML5</label>
+                    <input type="checkbox" name="HTML" id="id_HTML">
+
+                    <label for="id_CSS">CSS3</label>
+                    <input type="checkbox" name="CSS" id="id_CSS">
+                    
+                    <label for="id_javascript">JavaScript</label>
+                    <input type="checkbox" name="JavaScript" id="id_javascript">
+
+                    <label for="id_python">Python</label>
+                    <input type="checkbox" name="python" id="id_python">
+
+                    <label for="id_java">Java</label>
+                    <input type="checkbox" name="Java" id="id_java">
+
+                    <label for="id_c">C</label>
+                    <input type="checkbox" name="C" id="id_c">
+                </div>
+            </article>
+
+            <article id="text">
+                <div>
+                    <p id="experi"><strong>Conte mais sobre sua experiência</strong></p>
+                    <textarea name="experiencia" id="id_experiencia" cols="55" rows="15"></textarea>
+                </div>
+            </article>
+
+            
+        </form>
+        
+        <footer>
+                
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+                
+        </footer>
+    </main>
+
+    
+</body>
+</html>
