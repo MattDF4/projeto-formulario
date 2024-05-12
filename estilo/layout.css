@@ -72,6 +72,9 @@ footer input:hover {
     padding: 7px;
 }
 
+#inicial input{
+    display: block;
+}
 
 #experi {
     text-align: center;
